@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A04189219670ACB004732A5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A04189119670ACB004732A5 /* music.mp3 */; };
+		7AAEA5311966659100E611E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA5301966659100E611E4 /* Foundation.framework */; };
+		7AAEA5331966659100E611E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA5321966659100E611E4 /* CoreGraphics.framework */; };
+		7AAEA5351966659100E611E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA5341966659100E611E4 /* UIKit.framework */; };
+		7AAEA53B1966659100E611E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEA5391966659100E611E4 /* InfoPlist.strings */; };
+		7AAEA53D1966659100E611E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEA53C1966659100E611E4 /* main.m */; };
+		7AAEA5411966659100E611E4 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEA5401966659100E611E4 /* DRAppDelegate.m */; };
+		7AAEA5441966659100E611E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEA5421966659100E611E4 /* Main.storyboard */; };
+		7AAEA5471966659100E611E4 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEA5461966659100E611E4 /* DRViewController.m */; };
+		7AAEA5491966659100E611E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEA5481966659100E611E4 /* Images.xcassets */; };
+		7AAEA5501966659100E611E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA54F1966659100E611E4 /* XCTest.framework */; };
+		7AAEA5511966659100E611E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA5301966659100E611E4 /* Foundation.framework */; };
+		7AAEA5521966659100E611E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA5341966659100E611E4 /* UIKit.framework */; };
+		7AAEA55A1966659100E611E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AAEA5581966659100E611E4 /* InfoPlist.strings */; };
+		7AAEA55C1966659100E611E4 /* Sonido_AutomaticoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAEA55B1966659100E611E4 /* Sonido_AutomaticoTests.m */; };
+		7AAEA568196665F800E611E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAEA567196665F800E611E4 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AAEA5531966659100E611E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAEA5251966659100E611E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAEA52C1966659100E611E4;
+			remoteInfo = "Sonido Automatico";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A04189119670ACB004732A5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		7AAEA52D1966659100E611E4 /* Sonido Automatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sonido Automatico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAEA5301966659100E611E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AAEA5321966659100E611E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AAEA5341966659100E611E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AAEA5381966659100E611E4 /* Sonido Automatico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sonido Automatico-Info.plist"; sourceTree = "<group>"; };
+		7AAEA53A1966659100E611E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AAEA53C1966659100E611E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AAEA53E1966659100E611E4 /* Sonido Automatico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sonido Automatico-Prefix.pch"; sourceTree = "<group>"; };
+		7AAEA53F1966659100E611E4 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		7AAEA5401966659100E611E4 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		7AAEA5431966659100E611E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AAEA5451966659100E611E4 /* DRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		7AAEA5461966659100E611E4 /* DRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		7AAEA5481966659100E611E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AAEA54E1966659100E611E4 /* Sonido AutomaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sonido AutomaticoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAEA54F1966659100E611E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7AAEA5571966659100E611E4 /* Sonido AutomaticoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sonido AutomaticoTests-Info.plist"; sourceTree = "<group>"; };
+		7AAEA5591966659100E611E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AAEA55B1966659100E611E4 /* Sonido_AutomaticoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sonido_AutomaticoTests.m; sourceTree = "<group>"; };
+		7AAEA567196665F800E611E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAEA52A1966659100E611E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEA568196665F800E611E4 /* AVFoundation.framework in Frameworks */,
+				7AAEA5331966659100E611E4 /* CoreGraphics.framework in Frameworks */,
+				7AAEA5351966659100E611E4 /* UIKit.framework in Frameworks */,
+				7AAEA5311966659100E611E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAEA54B1966659100E611E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEA5501966659100E611E4 /* XCTest.framework in Frameworks */,
+				7AAEA5521966659100E611E4 /* UIKit.framework in Frameworks */,
+				7AAEA5511966659100E611E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AAEA5241966659100E611E4 = {
+			isa = PBXGroup;
+			children = (
+				7A04189119670ACB004732A5 /* music.mp3 */,
+				7AAEA5361966659100E611E4 /* Sonido Automatico */,
+				7AAEA5551966659100E611E4 /* Sonido AutomaticoTests */,
+				7AAEA52F1966659100E611E4 /* Frameworks */,
+				7AAEA52E1966659100E611E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAEA52E1966659100E611E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA52D1966659100E611E4 /* Sonido Automatico.app */,
+				7AAEA54E1966659100E611E4 /* Sonido AutomaticoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAEA52F1966659100E611E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA567196665F800E611E4 /* AVFoundation.framework */,
+				7AAEA5301966659100E611E4 /* Foundation.framework */,
+				7AAEA5321966659100E611E4 /* CoreGraphics.framework */,
+				7AAEA5341966659100E611E4 /* UIKit.framework */,
+				7AAEA54F1966659100E611E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AAEA5361966659100E611E4 /* Sonido Automatico */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA53F1966659100E611E4 /* DRAppDelegate.h */,
+				7AAEA5401966659100E611E4 /* DRAppDelegate.m */,
+				7AAEA5421966659100E611E4 /* Main.storyboard */,
+				7AAEA5451966659100E611E4 /* DRViewController.h */,
+				7AAEA5461966659100E611E4 /* DRViewController.m */,
+				7AAEA5481966659100E611E4 /* Images.xcassets */,
+				7AAEA5371966659100E611E4 /* Supporting Files */,
+			);
+			path = "Sonido Automatico";
+			sourceTree = "<group>";
+		};
+		7AAEA5371966659100E611E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA5381966659100E611E4 /* Sonido Automatico-Info.plist */,
+				7AAEA5391966659100E611E4 /* InfoPlist.strings */,
+				7AAEA53C1966659100E611E4 /* main.m */,
+				7AAEA53E1966659100E611E4 /* Sonido Automatico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AAEA5551966659100E611E4 /* Sonido AutomaticoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA55B1966659100E611E4 /* Sonido_AutomaticoTests.m */,
+				7AAEA5561966659100E611E4 /* Supporting Files */,
+			);
+			path = "Sonido AutomaticoTests";
+			sourceTree = "<group>";
+		};
+		7AAEA5561966659100E611E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEA5571966659100E611E4 /* Sonido AutomaticoTests-Info.plist */,
+				7AAEA5581966659100E611E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAEA52C1966659100E611E4 /* Sonido Automatico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAEA55F1966659100E611E4 /* Build configuration list for PBXNativeTarget "Sonido Automatico" */;
+			buildPhases = (
+				7AAEA5291966659100E611E4 /* Sources */,
+				7AAEA52A1966659100E611E4 /* Frameworks */,
+				7AAEA52B1966659100E611E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sonido Automatico";
+			productName = "Sonido Automatico";
+			productReference = 7AAEA52D1966659100E611E4 /* Sonido Automatico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AAEA54D1966659100E611E4 /* Sonido AutomaticoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAEA5621966659100E611E4 /* Build configuration list for PBXNativeTarget "Sonido AutomaticoTests" */;
+			buildPhases = (
+				7AAEA54A1966659100E611E4 /* Sources */,
+				7AAEA54B1966659100E611E4 /* Frameworks */,
+				7AAEA54C1966659100E611E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAEA5541966659100E611E4 /* PBXTargetDependency */,
+			);
+			name = "Sonido AutomaticoTests";
+			productName = "Sonido AutomaticoTests";
+			productReference = 7AAEA54E1966659100E611E4 /* Sonido AutomaticoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAEA5251966659100E611E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Axel Ulises Díaz Reyes";
+				TargetAttributes = {
+					7AAEA54D1966659100E611E4 = {
+						TestTargetID = 7AAEA52C1966659100E611E4;
+					};
+				};
+			};
+			buildConfigurationList = 7AAEA5281966659100E611E4 /* Build configuration list for PBXProject "Sonido Automatico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AAEA5241966659100E611E4;
+			productRefGroup = 7AAEA52E1966659100E611E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAEA52C1966659100E611E4 /* Sonido Automatico */,
+				7AAEA54D1966659100E611E4 /* Sonido AutomaticoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAEA52B1966659100E611E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A04189219670ACB004732A5 /* music.mp3 in Resources */,
+				7AAEA5491966659100E611E4 /* Images.xcassets in Resources */,
+				7AAEA53B1966659100E611E4 /* InfoPlist.strings in Resources */,
+				7AAEA5441966659100E611E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAEA54C1966659100E611E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEA55A1966659100E611E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAEA5291966659100E611E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEA5411966659100E611E4 /* DRAppDelegate.m in Sources */,
+				7AAEA5471966659100E611E4 /* DRViewController.m in Sources */,
+				7AAEA53D1966659100E611E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAEA54A1966659100E611E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAEA55C1966659100E611E4 /* Sonido_AutomaticoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AAEA5541966659100E611E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAEA52C1966659100E611E4 /* Sonido Automatico */;
+			targetProxy = 7AAEA5531966659100E611E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AAEA5391966659100E611E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAEA53A1966659100E611E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AAEA5421966659100E611E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAEA5431966659100E611E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AAEA5581966659100E611E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAEA5591966659100E611E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AAEA55D1966659100E611E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AAEA55E1966659100E611E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAEA5601966659100E611E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sonido Automatico/Sonido Automatico-Prefix.pch";
+				INFOPLIST_FILE = "Sonido Automatico/Sonido Automatico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AAEA5611966659100E611E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sonido Automatico/Sonido Automatico-Prefix.pch";
+				INFOPLIST_FILE = "Sonido Automatico/Sonido Automatico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7AAEA5631966659100E611E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sonido Automatico.app/Sonido Automatico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sonido Automatico/Sonido Automatico-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sonido AutomaticoTests/Sonido AutomaticoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7AAEA5641966659100E611E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sonido Automatico.app/Sonido Automatico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sonido Automatico/Sonido Automatico-Prefix.pch";
+				INFOPLIST_FILE = "Sonido AutomaticoTests/Sonido AutomaticoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAEA5281966659100E611E4 /* Build configuration list for PBXProject "Sonido Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAEA55D1966659100E611E4 /* Debug */,
+				7AAEA55E1966659100E611E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAEA55F1966659100E611E4 /* Build configuration list for PBXNativeTarget "Sonido Automatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAEA5601966659100E611E4 /* Debug */,
+				7AAEA5611966659100E611E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAEA5621966659100E611E4 /* Build configuration list for PBXNativeTarget "Sonido AutomaticoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAEA5631966659100E611E4 /* Debug */,
+				7AAEA5641966659100E611E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AAEA5251966659100E611E4 /* Project object */;
+}
